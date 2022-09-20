@@ -29,3 +29,5 @@ Com isso, desenvolveu-se o modelo de probabilidade de inadimplência com regress
 Em seguida, um score de crédito foi desenvolvido com base nos coeficientes das features e os mutuários foram escorados. Também foi desenvolvido um monitoramento para o modelo de probabilidade de inadimplência, com o índice de estabilidade populacional e, realizou-se uma análise demonstrativa comparando os dados de desenvolvimento do modelo e de um novo dataset. 
 
 Os modelos de índice de perda e exposição por inadimplência com regressão linear foram criados e, por fim, a perda esperada foi calculada utilizando os três modelos.
+
+E, de acordo com os resultados, a perda esperada do dataset selecionado possui média de U\$ 592.28, desvio padrão de U\$ 1.639.46, e valor máximo de U\$ 37.975,99. A soma total da perda esperada do portifólio foi de U\$ 519.819.141,88 e, por fim, proporcão da perda esperada pelo valor dos empréstimo foi 3.8%."
