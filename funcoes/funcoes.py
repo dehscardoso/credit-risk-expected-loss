@@ -9,6 +9,7 @@ from sklearn import linear_model
 from sklearn.metrics import mean_squared_error, r2_score
 
 
+
 # função para converter data string em meses
 def converte_colunas_data(df, coluna):
     data_ref = pd.to_datetime('2020-12-31')
