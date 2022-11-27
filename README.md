@@ -2,7 +2,7 @@
 
 Diante do cenário econômico atual, a concessão de crédito é uma decisão sob condições de incerteza e um grande desafio. Sejam empréstimos, financiamentos ou vendas a prazo, a possibilidade de perda sempre estará presente. Mesmo com critérios para a concessão definidos, como a análise da situação financeira, relacionamento com o credor e o histórico de pagamentos, ainda há risco do solicitante não cumprir com suas dívidas, fazendo com que um credor não receba o principal devido nem os juros, o que, por conseguinte, resulta na interrupção dos fluxos de caixa e no aumento dos custos de cobrança. 
 
-No entanto, caso ele consiga estimar a probabilidade de risco da operação e identificar esses requerentes, sua decisão poderá ser mais confiável reduzindo perdas para a instituição. Portanto, o presente projeto teve como objetivo a modelagem de risco de crédito, utilizando algoritmos de machine learning e técnicas estatísticas, em que foram identificadas possíveis variáveis indicadoras de inadimplência e se foi estimada a **Perda Esperada**.
+No entanto, caso ele consiga estimar a probabilidade de risco da operação e identificar esses requerentes, sua decisão poderá ser mais confiável diminuindo perdas para a instituição. Portanto, o presente projeto teve como objetivo a modelagem de risco de crédito, utilizando algoritmos de machine learning e técnicas estatísticas, em que foram identificadas possíveis variáveis indicadoras de inadimplência e se foi estimada a **Perda Esperada**.
 
 <br>
 
@@ -14,11 +14,9 @@ Este projeto mediu o risco de crédito do dataset [Lending Club Loan Data](https
 
 ## Desenho da Solução
 
-Primeiramente foi aplicada uma metodologia para seleção de features e criação de um dataset que utiliza técnicas estatísticas, em que um conjunto de dados foi escolhido e realizada uma análise das suas variáveis com base no peso de evidência e valor de informação, após essa seleção os dados foram agrupados em classes com coarse e fine classing. 
+Primeiramente, foi aplicada uma metodologia para seleção de features e criação de um dataset que utiliza técnicas estatísticas, em que um conjunto de dados foi escolhido e realizada uma análise das suas variáveis com base no peso de evidência e valor de informação, após essa seleção os dados foram agrupados em classes com coarse e fine classing. 
 
-Verificou-se, por meio de uma análise exploratória dos dados no dataset, a correlação e distribuição das features, que possibilitou uma melhor compreensão dos dados. 
-
-Com isso, desenvolveu-se o modelo de probabilidade de inadimplência com regressão logística e o primeiro modelo foi desenvolvimento das demais etapas.
+Verificou-se, por meio de uma análise exploratória dos dados no dataset, a correlação e distribuição das features, que possibilitou uma melhor compreensão dos dados. Com isso, desenvolveu-se o modelo de probabilidade de inadimplência com regressão logística.
 
 Em seguida, um score de crédito foi desenvolvido com base nos coeficientes das features e os mutuários foram escorados. Também foi desenvolvido um monitoramento para o modelo de probabilidade de inadimplência, com o índice de estabilidade populacional e, realizou-se uma análise demonstrativa comparando os dados de desenvolvimento do modelo e de um novo dataset. 
 
