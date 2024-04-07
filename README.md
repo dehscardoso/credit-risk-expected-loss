@@ -14,14 +14,14 @@ Este projeto teve como objetivo medir o risco de crédito do conjunto de dados [
 
 <br>
 
-## Desenvolvimento da Solução (corrigir)
+## Desenvolvimento da Solução 
 
-O desenvolvimento desta solução iniciou com a aplicação de uma metodologia criteriosa para a seleção de variáveis e a construção de um conjunto de dados robusto, empregando técnicas estatísticas avançadas. Esta fase inicial envolveu a seleção cuidadosa de um dataset representativo, seguida de uma análise detalhada das variáveis, utilizando métricas como o peso da evidência (Weight of Evidence - WoE) e o valor de informação (Information Value - IV). Após esta etapa de seleção, os dados foram organizados em categorias através das técnicas de coarse e fine classing, visando uma segmentação eficiente e significativa das variáveis.
+O desenvolvimento desta solução iniciou com a aplicação de uma metodologia criteriosa para a seleção de variáveis e a construção de um conjunto de dados robusto, empregando técnicas estatísticas avançadas. Esta fase inicial envolveu a seleção cuidadosa de um dataset representativo, seguida de uma análise detalhada das variáveis, utilizando métricas como o peso da evidência (*Weight of Evidence* - WoE) e o valor de informação (*Information Value* - IV). Após esta etapa de seleção, os dados foram organizados em categorias através das técnicas de coarse e fine classing, visando uma segmentação eficiente e significativa das variáveis.
 
 A etapa subsequente consistiu em uma análise exploratória dos dados, com o objetivo de examinar a correlação e distribuição das variáveis selecionadas. Esta análise foi fundamental para obter insights valiosos sobre a estrutura dos dados, facilitando assim a modelagem subsequente. Com base nesses insights, procedeu-se ao desenvolvimento de um modelo de probabilidade de inadimplência empregando regressão logística, uma técnica que permite estimar a probabilidade de ocorrência de um evento, neste caso, a inadimplência, com base nas características dos mutuários.
 
 O passo seguinte envolveu a elaboração de um sistema de credit scoring, derivado dos coeficientes obtidos no modelo de regressão logística. Esta etapa permitiu a classificação dos mutuários de acordo com o risco de inadimplência, possibilitando a aplicação prática do modelo em decisões de concessão de crédito.
-Para assegurar a eficácia e a estabilidade do modelo ao longo do tempo, implementou-se um mecanismo de monitoramento baseado no Índice de Estabilidade Populacional (Population Stability Index - PSI). Além disso, realizou-se uma análise comparativa entre os dados utilizados no desenvolvimento do modelo e um novo conjunto de dados, visando validar a robustez e a generalidade do modelo proposto.
+Para assegurar a eficácia e a estabilidade do modelo ao longo do tempo, implementou-se um mecanismo de monitoramento baseado no Índice de Estabilidade Populacional (*Population Stability Index* - PSI). Além disso, realizou-se uma análise comparativa entre os dados utilizados no desenvolvimento do modelo e um novo conjunto de dados, visando validar a robustez e a generalidade do modelo proposto.
 
 Paralelamente, modelos preditivos para o cálculo do índice de perda e da exposição ao risco em casos de inadimplência foram desenvolvidos utilizando regressão linear, complementando a análise de risco de crédito. Finalmente, a perda esperada foi calculada integrando os resultados dos três modelos: probabilidade de inadimplência, índice de perda e exposição ao risco, oferecendo uma ferramenta abrangente e precisa para a gestão do risco de crédito.
 
